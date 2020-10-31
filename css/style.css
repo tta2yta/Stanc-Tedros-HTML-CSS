@@ -1,27 +1,25 @@
 header{
     display: flex;
     flex-direction: row;
-    /* color: red; */
 }
 header img{
     width: 20%;
     height: 40px;
-    /* border: 1px solid red; */
 }
 nav{
-    /* display: inline;
-    float:right; */
-    /* padding-right: 40%;  */
     margin-left: 45%;
     width:80% ;
-    /* border: 1px solid red; */
+
 }
 
 nav li{
     display: inline;
     list-style-type: none;
-    /* padding-right: 13%; */
     margin-right: 10%
+}
+nav li a{
+    text-decoration: none;
+    color: black;
 }
 #email{
     width: 200px;

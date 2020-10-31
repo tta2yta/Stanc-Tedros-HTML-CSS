@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -14,9 +15,11 @@
   
   
       <nav id="nav-bar">
-          <li class="nav-link">Features</li>
-          <li class="nav-link">How it works</li>
-          <li class="nav-link">Pricing</li>
+        <ul>
+          <li class="nav-link"> <a href="#">Features</a></li>
+          <li class="nav-link"><a href="#">How it works</a></li>
+          <li class="nav-link"><a href="#">Pricing</a></li>
+        </ul>
       </nav>
   
   
@@ -30,7 +33,7 @@
     
     <div style="text-align: center; margin-top: 60px;">
       <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
-          <input type="email" id="email" placeholder="Please Enter Your Email" 
+          <input type="email" name="email" id="email"  value="Email" placeholder="Please Enter Your Email" 
          
           required />
           <input type="submit" id="submit">

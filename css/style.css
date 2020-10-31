@@ -23,3 +23,15 @@ nav li{
     /* padding-right: 13%; */
     margin-right: 10%
 }
+#email{
+    width: 200px;
+}
+#submit{
+    display: block;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    padding: 5px 40px 5px 40px;
+    background-color: yellowgreen;
+    border: none;
+
+}
